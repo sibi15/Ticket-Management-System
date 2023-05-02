@@ -5,7 +5,7 @@
 import mysql.connector
 import time
 
-con=mysql.connector.connect(host='localhost', user='root', password='sibikarthik260104', database='test')
+con=mysql.connector.connect(host='localhost', user='root', password='', database='test')
 time.sleep(2)
 if con.is_connected():
       print('\nSuccessful Connection. ')
