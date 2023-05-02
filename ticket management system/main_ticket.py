@@ -65,7 +65,7 @@ if ch==1:
 
       # making the ticket_id UNIQUE by updating the null date to an actual date:
       import mysql.connector
-      con=mysql.connector.connect(host='localhost', user='root', password='sibikarthik260104', database='test')
+      con=mysql.connector.connect(host='localhost', user='root', password='', database='test')
       cur=con.cursor()
       date=input('Please enter the date in the format (DD-MM-YY): ')
       query=("update random set date='{}' where ticket_id='{}'".format(date,ticket_id))
