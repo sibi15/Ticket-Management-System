@@ -1,3 +1,9 @@
 In order to run the program, you would need a valid sql server connection and python-mysql connectivity
 
 First open table_creation.py
+Line 5 -> enter your sql password
+Running this program will create the random table in mysql
+
+Then open the main_ticket.py
+Line 48 -> enter your sql password
+Now you can run this program
