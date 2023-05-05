@@ -1,6 +1,7 @@
 In order to run the program, you would need a valid sql server connection and python-mysql connectivity
+First open your sql and create table random as: create table random(ticket_id varchar(3) primary key not null, date varchar(10), time varchar(8))
 
-First open table_creation.py
+Then open table_creation.py
 Line 5 -> enter your sql password
 Running this program will create the random table in mysql
 
