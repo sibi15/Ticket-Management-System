@@ -3,7 +3,6 @@
 import mysql.connector
 import time
 con=mysql.connector.connect(host='localhost', user='root', password='', database='test')
-
 if con.is_connected():
       print('\nSuccessful Connection. ')
 
@@ -20,12 +19,10 @@ print('Table created successfully')
 
 # lists for the ID:
 import string
-
 letters=[]
 for i in range(0,26):
       letters.append(string.ascii_uppercase[i])
 print(letters)
-
 numbers=[]
 for i in range(1,6):
       numbers.append(i)
