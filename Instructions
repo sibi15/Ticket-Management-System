@@ -1,0 +1,3 @@
+In order to run the program, you would need a valid sql server connection and python-mysql connectivity
+
+First open table_creation.py
