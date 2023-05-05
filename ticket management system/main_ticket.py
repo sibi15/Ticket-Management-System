@@ -83,11 +83,11 @@ if ch==1:
       print('Time updated.')
       time.sleep(1)
 
-      print('Time you have to pay for is:', str(datetime.timedelta(seconds=time_period)))
+      print('\nTime you have to pay for is:', str(datetime.timedelta(seconds=time_period)))
       cost=time_period*4
       print("(Calculating cost per second for now)")
       time.sleep(1)
-      print("\nYour cost will be", cost, ".")
+      print("\nYour cost will be", cost)
 
       cur3=con.cursor()
       sql_set=("update random set date='', time=''")
