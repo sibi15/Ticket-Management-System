@@ -2,7 +2,7 @@
 # connection object creation: 
 import mysql.connector
 import time
-con=mysql.connector.connect(host='localhost', user='root', password='', database='test')
+con=mysql.connector.connect(host='localhost', user='root', password='', database='')
 if con.is_connected():
       print('\nSuccessful Connection. ')
 
