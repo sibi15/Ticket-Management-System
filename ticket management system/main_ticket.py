@@ -67,7 +67,6 @@ if ch==1:
       print('\nYou will be prompted to the payment details soon after the following.')
 
       # check if connected successfully:
-      con=mysql.connector.connect(host='localhost', user='root', password='', database='test')
       if con.is_connected():
           print("\nloading.")
           time.sleep(0.5)
